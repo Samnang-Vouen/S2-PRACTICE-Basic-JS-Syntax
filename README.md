@@ -1,5 +1,5 @@
 # S2-PRACTICE-Basic-JS-Syntax
-### JavaScript Code Challenges - Part 2
+### Code Challenges 
 
 ### Introduction
 
@@ -21,3 +21,31 @@ function challenge1(width, height) {
   // Your code goes here
   return rectangleString;
 }
+```
+### Challenge 1 - Easy
+
+### Task:
+Draw a rectangle in the console using stars (`*`).
+
+### Input:
+
+- `width` (number): The width of the rectangle (positive integer).
+- `height` (number): The height of the rectangle (positive or negative integer).
+
+### Output:
+
+- The function should output a rectangle made of stars (`*`) based on the `width` and `height`.
+
+### Example:
+
+1. **Input**:
+   - `width = 3`
+   - `height = 4`
+
+   **Output**:
+   ```plaintext
+   ***
+   ***
+   ***
+   ***
+   ```
