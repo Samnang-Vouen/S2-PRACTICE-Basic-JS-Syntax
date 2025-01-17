@@ -1,1 +1,1 @@
-# S2---PRACTICE---Basic-JS-Syntax
+# S2-PRACTICE-Basic-JS-Syntax
