@@ -36,8 +36,7 @@ Draw a rectangle in the console using stars (`*`).
 
 - The function should output a rectangle made of stars (`*`) based on the `width` and `height`.
 
-### Example:
-
+### Input and Output
 1. **Input**:
    - `width = 3`
    - `height = 4`
@@ -66,29 +65,148 @@ Draw a rectangle in the console using stars (`*`).
    ```plaintext
    
    ```
-### Solution:
-```js
-function challenge1(width, height) { 
 
-    let rectangleString = ''; 
-    
-     // Your code 
-    if (width <= 0 || height <= 0) {
-        return rectangleString;
-    }
-    for (let i = 0; i < height; i++) {
-        rectangleString += '*'.repeat(width) + '\n';
-    }
-     return rectangleString; 
-}
-console.log("Draw a rectangle in the console using stars:");
+### Challenge 2 - Medium
 
-console.log("width: 3  height: 4");
-console.log(challenge1(3, 4)); 
+### Task:
+Reverse an array.
 
-console.log("width: 5  height: 2");
-console.log(challenge1(5, 2)); 
+### Input and Output:
 
-console.log("width: 5  height: -2");
-console.log(challenge1(5, -2)); 
-```
+1. **Input:**
+   - `array = [14, 15, 16, 20]`
+
+   **Output:**
+   ```plaintext
+   [20, 16, 15, 14]
+   ```
+2. **Input:**
+   - `array = [5,4,3,2,1]`
+
+   **Output:**
+   ```plaintext
+   [1,2,3,4,5] 
+   ```
+3. **Input:**
+   - `array = []`
+
+   **Output:**
+   ```plaintext
+   [] 
+   ```
+### Challenge 3 - Medium
+
+### Task:
+Calculate the average grade from a list of student grades.
+
+### Input and Output:
+
+1. **Input:**
+   - `array = [85, 90, 78, 92]`
+
+   **Output:**
+   ```plaintext
+   86.25
+   ```
+2. **Input:**
+   - `array = [10,20,30]`
+
+   **Output:**
+   ```plaintext
+   20
+   ```
+3. **Input:**
+   - `array = []`
+
+   **Output:**
+   ```plaintext
+   0
+   ```
+### Challenge 4 - Medium
+
+### Task:
+Write a function to count how many times a character appears in a string.
+
+### Input and Output:
+
+1. **Input:**
+   - `text = "hello world"`
+   - `char = 'o'`
+
+   **Output:**
+   ```plaintext
+   2
+   ```
+2. **Input:**
+   - `text = "aaa bbb a"`
+   - `char = 'a'`
+
+   **Output:**
+   ```plaintext
+   4
+   ```
+3. **Input:**
+   - `text = "abc"`
+   - `char = 'd'`
+
+   **Output:**
+   ```plaintext
+   0
+   ```
+### Challenge 5 - Hard
+
+### Task:
+Count the number of words in a given sentence.
+
+### Input and Output:
+
+1. **Input:**
+   - `text = "hello world"`
+
+   **Output:**
+   ```plaintext
+   2
+   ```
+2. **Input:**
+   - `text = "this is the best day"`
+
+   **Output:**
+   ```plaintext
+   5
+   ```
+3. **Input:**
+   - `text = "a bb ccc ddddddd e"`
+
+   **Output:**
+   ```plaintext
+   5
+   ```
+### Challenge 6 - Hard
+
+### Task:
+Simulate a voting system for three candidates (`A`, `B`, and `C`). Count the votes and declare the winner(s).
+
+### Input and Output:
+
+1. **Input:**
+   - `votes = ['A', 'B', 'A', 'C', 'A']`
+
+   **Output:**
+   ```plaintext
+   A is the winner.
+   ```
+2. **Input:**
+   - `votes = [‘A’, ‘B’, ‘B’, ‘C’, ‘A’]`
+
+   **Output:**
+   ```plaintext
+   A and B are both winners.
+   ```
+3. **Input:**
+   - `votes = []`
+
+   **Output:**
+   ```plaintext
+   There is not vote yet.
+   ```
+
