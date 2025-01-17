@@ -3,8 +3,6 @@
 
 ### Introduction
 
-Good job! You’ve learned the basic syntax of JavaScript. Now, it's time to solve some problems and enhance your skills.
-
 Each challenge is structured the same way:
 
 - **Goal**: What the function should accomplish
